@@ -1,6 +1,8 @@
 # Kittydar
 
-Kittydar is short for kitty radar. Kittydar takes an image (canvas) and tells you the locations of all the cats in the image:
+## [Kittydar demo](http://harthur.github.com/kittydar) ##
+
+[![Screenshot of Kittydar](https://raw.githubusercontent.com/richard512/kittydar/master/kittydar.png)](http://harthur.github.com/kittydar)
 
 ```javascript
 var cats = kittydar.detectCats(canvas);
@@ -12,7 +14,7 @@ console.log(cats[0]);
 // { x: 30, y: 200, width: 140, height: 140 }
 ```
 
-[Kittydar demo](http://harthur.github.com/kittydar)
+
 
 ## Install
 
